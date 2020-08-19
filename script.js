@@ -1,4 +1,4 @@
-function(){
+$(function(){
     $("input").number(true,2,",",".");
 
 function celciusToFahrenheit(){
