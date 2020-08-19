@@ -1,5 +1,6 @@
-$("input").number(true,2,",",".");
-
+function(){
+    $("input").number(true,2,",",".");
+}
 function celciusToFahrenheit(){
     var celciusDegree1 = Number($("#celcius-fahrenheit").val());
     var result =celciusDegree1*9/5+32;
