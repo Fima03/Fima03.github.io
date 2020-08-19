@@ -1,6 +1,6 @@
 function(){
     $("input").number(true,2,",",".");
-}
+
 function celciusToFahrenheit(){
     var celciusDegree1 = Number($("#celcius-fahrenheit").val());
     var result =celciusDegree1*9/5+32;
@@ -44,3 +44,4 @@ var kelvinDegree2 = Number($("#kelvin-fahrenheit").val());
 var result =(kelvinDegree2-273.15)*9/5+32  ;
 $(".K-F").html(kelvinDegree2.toLocaleString('ID')+" Kelvin = "+result.toLocaleString('ID')+" F" );
 })
+}
