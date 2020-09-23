@@ -67,7 +67,7 @@ function bmiConverter (){
     }else if(bmi2 >= 35 && bmi2 <40){
         kondisi =`Nilai BMI anda adalah ${bmi2} dan dengan nilai  BMI tersebut, berat badan anda termasuk obesitas kelas 2`
     }else if(bmi2 >= 40){
-        kondisi =`Nilai BMI anda adalah ${bmi2} dan dengan nilai  BMI tersebut, berat badan anda termasuk kelas 3`
+        kondisi =`Nilai BMI anda adalah ${bmi2} dan dengan nilai  BMI tersebut, berat badan anda termasuk obesitas kelas 3`
     }
     $("#bmi-result").html(kondisi);
 };
